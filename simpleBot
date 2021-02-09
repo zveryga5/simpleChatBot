@@ -54,14 +54,13 @@ public class SimpleBot {
         
         while(scanner.hasNext()){
             int a = scanner.nextInt();
-            
             if (a == 1) {
                 break;
             } else {
                 System.out.println("Please, try again.");
                 continue;
         }
-    }
+      }
     }
 
     static void end() {
